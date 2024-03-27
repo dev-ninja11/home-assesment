@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "@/components/*": ["components/*"],
+        "@/pages/*": ["pages/*"],
+        "@/src/*": ["src/*"],
+        "@/styles/*": ["styles/*"],
+        "@/store/*": ["store/*"],
+        "@/context/*": ["context/*"],
+        "@/lib/*": ["lib/*"],
+        "@/utils/*": ["utils/*"]
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "components/Pub/GearCalculator/CustomGearRatios/DataGridGearRatios.js", "components/Users/MyGarage/GarageCard.js", "components/ListReviews.jsx", "pages/api/auth/[...nextauth]ts.copy", "pages/auth/protected-two/index.js", "pages/_document.tsa", "components/layout/search-beta/LayoutProductSearchField.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+
+  
+}
